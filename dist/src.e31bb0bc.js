@@ -120,39 +120,42 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"index.js":[function(require,module,exports) {
 window.addEventListener('load', function () {
   console.log("Cargado");
-  console.log("Loader termina");
-  console.log(history.length);
-  var linkShowMore = document.getElementById('show-more');
-  var descriptionMoreInformation = document.getElementById('show-description');
-  linkShowMore.addEventListener('click', function () {
-    descriptionMoreInformation.classList.toggle('open');
+  var pathname = window.location.pathname;
 
-    if (linkShowMore && linkShowMore.textContent === 'Ver menos') {
-      while (linkShowMore.firstChild) {
-        linkShowMore.removeChild(linkShowMore.firstChild);
+  if (pathname.includes('details')) {
+    console.log("Entramos");
+    var linkShowMore = document.getElementById('show-more');
+    var descriptionMoreInformation = document.getElementById('show-description');
+    linkShowMore.addEventListener('click', function () {
+      descriptionMoreInformation.classList.toggle('open');
+
+      if (linkShowMore && linkShowMore.textContent === 'Ver menos') {
+        while (linkShowMore.firstChild) {
+          linkShowMore.removeChild(linkShowMore.firstChild);
+        }
+
+        linkShowMore.textContent = 'Ver más';
+        var i = document.createElement('i');
+        i.classList.add('arrow');
+        i.classList.add('down');
+        linkShowMore.append(i);
+      } else {
+        while (linkShowMore.firstChild) {
+          linkShowMore.removeChild(linkShowMore.firstChild);
+        }
+
+        linkShowMore.textContent = 'Ver menos';
+
+        var _i = document.createElement('i');
+
+        _i.classList.add('arrow');
+
+        _i.classList.add('up');
+
+        linkShowMore.append(_i);
       }
-
-      linkShowMore.textContent = 'Ver más';
-      var i = document.createElement('i');
-      i.classList.add('arrow');
-      i.classList.add('down');
-      linkShowMore.append(i);
-    } else {
-      while (linkShowMore.firstChild) {
-        linkShowMore.removeChild(linkShowMore.firstChild);
-      }
-
-      linkShowMore.textContent = 'Ver menos';
-
-      var _i = document.createElement('i');
-
-      _i.classList.add('arrow');
-
-      _i.classList.add('up');
-
-      linkShowMore.append(_i);
-    }
-  });
+    });
+  }
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -182,7 +185,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64213" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64040" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
