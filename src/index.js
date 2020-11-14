@@ -3,7 +3,6 @@ window.addEventListener('load', () => {
     if (pathname.includes('details')) {
         const linkShowMore = document.getElementById('show-more');
         const descriptionMoreInformation = document.getElementById('show-description');
-
         linkShowMore.addEventListener('click', () => {
             descriptionMoreInformation.classList.toggle('open');
             if(linkShowMore && linkShowMore.textContent === 'Ver menos') {

@@ -1,10 +1,5 @@
 @import url(../../fonts/fonts.css);
 
-:root {
-    --success-color:#2ecc71;
-    --error-color:#e74c3c;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,25 +14,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-/* Inicio */
-/* .main{
-    user-select: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 80vh;
-} */
-/* background: -webkit-linear-gradient(120deg, hsla(0, 20%, 99%, 0.2), hsla(200, 9%, 93%, 1)), url(../img/books.png);
-    background: linear-gradient(120deg, hsla(0, 33%, 99%, .2), hsla(200, 8%, 93%, 1)), url(../img/books.png); */
-    /* background-attachment: scroll; */
-    /* position: relative; */
-/* .header-main img {
-    position: absolute;
-    bottom: 0;
-} */
 
 header:not(.header-main){
     min-height: 100px;
@@ -108,11 +84,6 @@ header:not(.header-main){
     cursor: pointer;
 }
 
-.subtitle{
-    text-align: center;
-    margin: 30px 0;
-}
-
 .container{ 
     display: flex;
     justify-content: center; 
@@ -125,6 +96,11 @@ header:not(.header-main){
     max-width: 300px;
     background-color: #ffffff;
     padding: 20px 5px;
+}
+
+.subtitle{
+    text-align: center;
+    margin: 30px 0;
 }
 
 .list-categories{
