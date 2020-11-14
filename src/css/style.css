@@ -320,12 +320,17 @@ header:not(.header-main){
     cursor: pointer;
     text-align: center;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 15px;
     color: #EC7063;
     border: 2px solid #EC7063;
     margin-top: 10px;
     user-select: none;
     transition: color .2s, border-color .2s;
+
+    font-family: inherit;
+    background-color: transparent;
+    border-radius: 0px;
+    outline: none;
 }
 
 .btn-show:hover{
@@ -476,9 +481,7 @@ footer p {
 
     .container-information-book{
         flex-basis: 100%;
-        margin: 0;
-        border-top: 1px solid #ddd;
-        padding-top: 30px;
+        margin: 10px 0 0 0;
     }
 
     .others-books{

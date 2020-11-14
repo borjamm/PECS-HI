@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    const pathname = window.location.pathname;
+    let pathname = window.location.pathname;
     if (pathname.includes('details')) {
         const linkShowMore = document.getElementById('show-more');
         const descriptionMoreInformation = document.getElementById('show-description');
