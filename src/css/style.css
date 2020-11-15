@@ -111,11 +111,10 @@ header:not(.header-main){
 }
 
 .list-categories li {
-    text-align: center;
-    flex-basis: 90%;
+    list-style-type: none;
     list-style-type: none;
     margin: 10px 0;
-    padding: 10px 0;
+    flex-basis: 90%;
 }
 
 .list-categories li:nth-child(even) {
@@ -129,9 +128,9 @@ header:not(.header-main){
 .list-categories li a {
     text-decoration: none;
     color: #ffffff;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .list-categories li a:hover{
