@@ -11,8 +11,11 @@ window.addEventListener('load', () => {
                 }
                 linkShowMore.textContent = 'Ver más';
                 const i = document.createElement('i');
-                i.classList.add('arrow');
-                i.classList.add('down');
+                // i.classList.add('arrow');
+                // i.classList.add('down');
+                // const img = document.createElement('img');
+                // img.setAttribute("src", "../img/icons/arrow.svg")
+                i.classList.add('bottom');
                 linkShowMore.append(i);
             } else {
                 while(linkShowMore.firstChild) { 
@@ -20,8 +23,11 @@ window.addEventListener('load', () => {
                 }
                 linkShowMore.textContent = 'Ver menos';
                 const i = document.createElement('i');
-                i.classList.add('arrow');
-                i.classList.add('up');
+                // i.classList.add('arrow');
+                // i.classList.add('up');
+                // const img = document.createElement('img');
+                // img.setAttribute("src", "../img/icons/arrow.svg")
+                i.classList.add('top');
                 linkShowMore.append(i);
             }
         });

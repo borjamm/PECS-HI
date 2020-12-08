@@ -9,7 +9,10 @@
     </head>
     <body>
         <header>
-            <h1 class="pagename">Editorial Práctica</h1>
+            <div class="container-logo">
+                <h1 class="pagename">Editorial Práctica</h1>
+                <img src="../img/icons/logo.svg" alt="Logotipo de la web" class="logo" title="Logo">
+            </div>
             <nav class="menu-navigation">
                 <ul>
                     <li><a href="/">Inicio</a></li>
@@ -31,10 +34,26 @@
                         <p>Los colonos llevan consigo sus deseos más íntimos y el sueño de reproducir en el Planeta Rojo una civilización de perritos calientes, cómodos sofás y limonada en el porche al atardecer.</p>
                         <p>Pero su equipaje incluye también los miedos ancestrales, que se traducen en odio a lo diferente, y las enfermedades que diezmarán a los marcianos. Conforme a su concepción de lo que debe ser la ciencia ficción, Bradbury se traslada al futuro para iluminar el presente y explorar la naturaleza humana.</p>
                         <p id="show-description" class="article-description">Escritas en la década de los cuarenta, estas deslumbrantes e intensas historias constituyen un canto contra el racismo, la guerra y la censura, destilando nostalgia e idealismo.</p>
-                        <button id="show-more" class="btn-show">Ver más<i class="arrow down"></i></button>
+                        <button id="show-more" class="btn-show">
+                            Ver más <i class="bottom"></i>
+                        </button>
                     </div>
 
                     <div class="container-information-book">
+                        <!-- <div class="author-book">
+                            <h4>Autor del libro</h4>
+                            <h4>Ray Bradbury</h4>
+
+                            <img class="author-img" srcset="../img/direction-art/author.jpg 320w,
+                                    ../img/direction-art/author1.jpg 480w,
+                                    ../img/direction-art/author2.jpg 800w"
+                                    sizes="(max-width: 320px) 280px,
+                                        (max-width: 480px) 440px,
+                                        800px"
+                                    src="../img/direction-art/author2.jpg" alt="author">
+                            
+                        </div> -->
+
                         <div class="details-book">
                             <h4>Detalles del libro</h4>
                             <ul class="list-details-book">
@@ -136,7 +155,10 @@
         </main>
 
         <footer>
-            <p>Realizado por Borja Machín Morera</p>
+            <h2>Editorial Práctica</h2>
+            <span class="figure">BMM</span>
+            <!-- <p>Realizado por Borja Machín Morera</p> -->
+            <div>Iconos obtenidos de <a class="author" href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> desde <a class="author" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             <p>Contenido obtenido de <a class="author" href="https://www.goodreads.com/" target="_blank" rel="noopener noreferrer">Goodreads</a> y <a class="author" href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
         </footer>
         <script src="../index.js"></script>

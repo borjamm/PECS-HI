@@ -10,13 +10,13 @@
     <body>
         <header class="header-main">
             <h1>Editorial Práctica</h1>
-            <h4>Borja Machín Morera</h4>
+            <img src="img/icons/logo.svg" alt="Logotipo de la web" class="logo" title="Logo">
         </header>
         
         <main>
             <section class="all-categories">
                 <h2 class="subtitle">Categorías</h2>
-                <ul class="container-cards">
+                <ul id="categories" class="container-cards">
                     <li class="tags-category"><a class="card category" href="./categories/category1.html">Ciencia ficción</a></li>
                     <li class="tags-category"><a class="card category" href="./categories/category2.html">Novela romántica</a></li>
                     <li class="tags-category"><a class="card category" href="#">Narrativa de humor</a></li>
@@ -26,6 +26,9 @@
                     <li class="tags-category"><a class="card category" href="#">Novela histórica</a></li>
                     <li class="tags-category"><a class="card category" href="#">Novela de viajes</a></li>
                 </ul>
+                <div class="button-down">
+                    <i class="arrow-down"></i>
+                </div>
             </section>
             
             <section class="all-items-index">
@@ -71,7 +74,20 @@
         </main>
 
         <footer>
-            <p>Realizado por Borja Machín Morera</p>
+            <h2>Editorial Práctica</h2>
+            <span class="figure">BMM</span>
+
+            <!-- <svg class="figure" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                  <rect x="0" y="0" fill="#ffffff"></rect>
+                  <text x="7" y="16" font-size="14" fill="#000000">BMM</text>
+                  <text x="50" y="16" font-size="14" fill="#000000">Borja</text>
+                  <text x="7" y="50" font-size="14" fill="#000000">Machín Morera</text>
+                </g>
+            </svg> -->
+
+            <!-- <p>Realizado por Borja Machín Morera</p> -->
+            <div>Iconos obtenidos de <a class="author" href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> desde <a class="author" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             <p>Contenido obtenido de <a class="author" href="https://www.goodreads.com/" target="_blank" rel="noopener noreferrer">Goodreads</a> y <a class="author" href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
         </footer>
         <script src="index.js"></script>
