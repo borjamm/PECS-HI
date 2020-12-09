@@ -853,6 +853,7 @@ footer p {
     
     .article-img{
         margin: 10px 0 50px 0;
+        min-width: 185px;
     }
     
     .article-summary{
