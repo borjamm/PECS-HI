@@ -26,26 +26,28 @@
                 <h2 class="subtitle">El jardín olvidado</h2>
                 <section class="article-information">
                     <img class="article-img" srcset="
-                            ../img/imgsDetails2/elJardínOlvidado@mobile.jpg 480w,
-                            ../img/imgsDetails2/elJardínOlvidado@tablet.jpg 1200w,
-                            ../img/imgsDetails2/elJardínOlvidado@desktop.jpg 1300w"
+                            ../img/imgsDetails2/book/elJardínOlvidado@mobile.jpg 480w,
+                            ../img/imgsDetails2/book/elJardínOlvidado@tablet.jpg 1200w,
+                            ../img/imgsDetails2/book/elJardínOlvidado@desktop.jpg 1300w"
                             sizes="(max-width: 480px) 440px,
                                 (max-width: 1200px) 1160px,
                                 1300px"
-                            src="../img/imgsDetails2/elJardínOlvidado@desktop.jpg" alt="Portada del libro llamado El jardín olvidado" title="El jardín olvidado">
+                            src="../img/imgsDetails2/book/elJardínOlvidado@desktop.jpg" alt="Portada del libro llamado El jardín olvidado" title="El jardín olvidado">
 
 
                     <div class="article-summary">
                         <h3>Kate Morton</h3>
                         <span class="book-tag">Novela romántica</span>
                         <h4>Resumen</h4>
+                        <div class="drafts">
+                            <img src="../img/drafts/reading_a_book.png" alt="Draf book">
+                        </div>
                         <p>En vísperas de la Primera Guerra Mundial, una niña es abandonada en un barco con destino a Australia. Una misteriosa mujer llamada la Autora ha prometido cuidar de ella, pero la Autora desaparece sin dejar rastro.</p>
                         <p>Un terrible secreto sale a la luz… En la noche de su veintiún cumpleaños, Nell O’Connor descubre que es adoptada, lo que cambiará su vida para siempre.</p>
                         <p>Décadas más tarde, se embarca en la búsqueda de la verdad de sus antepasados que la lleva a la ventosa costa de Cornualles. Una misteriosa herencia que llega en el siglo XXI…</p>
                         <p id="show-description" class="article-description">A la muerte de Nell, su nieta Casandra recibe una inesperada herencia: una cabaña y su olvidado jardín en las tierras de Cornualles que es conocido por la gente por los secretos que estos esconden. Aquí es donde Casandra descubrirá finalmente la verdad sobre la familia y resolverá el misterio, que se remonta un siglo, de una niña desaparecida.</p>
-                        <!-- <button id="show-more" class="btn-show">Ver más<i class="arrow down"></i></button> -->
                         <button id="show-more" class="btn-show">
-                            Ver más <em class="bottom"></em>
+                            Ver más <span class="bottom"></span>
                         </button>
                     </div>
 
@@ -71,15 +73,20 @@
                     </div>
                 </section>
 
-                <section class="section-author">
-                    <h3>Más información del autor</h3>
-                    <div class="container-authorBook">
-
-                        <picture class="author-img">
-                            <source media="(max-width: 480px)" srcset="../img/art-direction/authorCategory2/author@mobile.png">
-                            <source media="(max-width: 1200px)" srcset="../img/art-direction/authorCategory2/author@tablet.png">
-                            <img src="../img/art-direction/authorCategory2/author@desktop.png" alt="Retrato del autor">
-                        </picture>
+                <section class="container-authorBook">
+                    <div class="authorBook">
+                        <h3>Más información del autor</h3>
+                        <div class="container-img">
+                            <img class="author-img" srcset="
+                        ../img/imgsDetails2/author/author@mobile.jpg 480w,
+                        ../img/imgsDetails2/author/author@tablet.jpg 1200w,
+                        ../img/imgsDetails2/author/author@desktop.jpg 1300w"
+                            sizes="(max-width: 480px) 440px,
+                                (max-width: 1200px) 1160px,
+                                1300px"
+                            src="../img/imgsDetails2/author/author@desktop.jpg" alt="Retrato del autor" title="Retrato del autor">
+                        </div>
+                        
 
                         <div class="author-bibliography">
                             <h4>Kate Morton</h4>
@@ -89,12 +96,16 @@
                                 cada vez que va al teatro y las luces de la casa se atenúan.
                             </p>
                         </div>
-                        
                     </div>
+                        
+
+                    <picture class="art-direction">
+                        <source media="(max-width: 768px)" srcset="../img/imgsDetails2/art-direction/art-direction@mobile.jpg">
+                        <source media="(max-width: 1200px)" srcset="../img/imgsDetails2/art-direction/art-direction@tablet.jpg">
+                        <img src="../img/imgsDetails2/art-direction/art-direction@desktop.jpg" alt="Retrato del autor">
+                    </picture>
                 </section>
             </article>
-
-            
 
             <section class="others-books">
                 <h2 class="subtitle">Otros artículos relacionados de Novela romántica</h2>
@@ -176,13 +187,7 @@
 
         <footer>
             <h2>Editorial Práctica</h2>
-            <!-- <span class="icon-ClipPath">BMM</span> -->
-            <svg class="icon-ClipPath" xmlns="http://www.w3.org/2000/svg">
-                <g>
-                  <rect x="0" y="0" height="50" width="50" fill="#ffffff"></rect>
-                  <text x="7" y="16" font-size="14" fill="#000000">BMM</text>
-                </g>
-            </svg>
+            <span class="icon-ClipPath">BMM</span>
             <div>Iconos obtenidos de <a class="author" href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> desde <a class="author" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             <p>Contenido obtenido de <a class="author" href="https://www.goodreads.com/" target="_blank" rel="noopener noreferrer">Goodreads</a> y <a class="author" href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
         </footer>
