@@ -371,7 +371,7 @@ header:not(.header-main){
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 100px 5px 50px 5px;
+    margin: 30px 5px 50px 5px;
 }
 
 .card{
@@ -780,7 +780,7 @@ footer p {
     .author {
         margin: 0px;
     }
-     
+
 }
 
 @media screen and (max-width: 768px){
