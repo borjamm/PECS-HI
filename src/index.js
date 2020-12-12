@@ -10,25 +10,17 @@ window.addEventListener('load', () => {
                     linkShowMore.removeChild(linkShowMore.firstChild); 
                 }
                 linkShowMore.textContent = 'Ver más';
-                const i = document.createElement('i');
-                // i.classList.add('arrow');
-                // i.classList.add('down');
-                // const img = document.createElement('img');
-                // img.setAttribute("src", "../img/icons/arrow.svg")
-                i.classList.add('bottom');
-                linkShowMore.append(i);
+                const span = document.createElement('span');
+                span.classList.add('bottom');
+                linkShowMore.append(span);
             } else {
                 while(linkShowMore.firstChild) { 
                     linkShowMore.removeChild(linkShowMore.firstChild); 
                 }
                 linkShowMore.textContent = 'Ver menos';
-                const i = document.createElement('i');
-                // i.classList.add('arrow');
-                // i.classList.add('up');
-                // const img = document.createElement('img');
-                // img.setAttribute("src", "../img/icons/arrow.svg")
-                i.classList.add('top');
-                linkShowMore.append(i);
+                const span = document.createElement('span');
+                span.classList.add('top');
+                linkShowMore.append(span);
             }
         });
     }
