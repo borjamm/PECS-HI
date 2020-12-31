@@ -397,6 +397,7 @@ header:not(.header-main){
     align-items: center;
     flex-direction: column-reverse; 
     min-width: 210px;
+    min-height: 350px;
 }
 
 .card-content > h3 {
@@ -419,6 +420,7 @@ header:not(.header-main){
     object-fit: cover; 
     object-position: center;
     width: 100%;
+    height: 320px;
 }
 
 .card-content .card-tags{
@@ -549,7 +551,6 @@ header:not(.header-main){
 
 .top {
     transform: rotate(180deg);
-
 }
 
 .container-information-book{
@@ -561,9 +562,9 @@ header:not(.header-main){
     margin: 10px;
 }
 
-/* .drafts > img {
+.drafts > img {
     width: 100px;
-} */
+}
 
 .container-authorBook{
     margin: 20px 10px;
@@ -573,7 +574,6 @@ header:not(.header-main){
     flex-wrap: nowrap;
     padding-top: 30px;
     border-top: 1px solid #ddd; 
-    
 }
 
 .container-authorBook h3{

@@ -4,9 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Este sitio web trata de una editorial de libros. Es un proyecto para una asignatura de un máster de la UOC.">
         <title>Editorial Práctica</title>
-        <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <style>
+           *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Leckerli One',cursive;color:#1f1f1f;background:#ffffff;min-height:100vh;display:flex;flex-direction:column}.header-main{background-image:linear-gradient(to right,#ffc3a0 0%,#ffafbd 100%);display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:90vh}.header-main h1,.header-main h2,.header-main .logo{font-size:45px;animation-name:header;animation-duration:2s;animation-iteration-count:1}.header-main h2{font-size:20px}.header-main .logo{margin-left:20px;max-width:70px;width:100%;position:absolute;top:0;left:0;margin:20px}@keyframes header{0%{transform:scale(0) rotate(0deg);opacity:0}50%{transform:scale(1.1) rotate(359deg);opacity:1}100%{transform:scale(1) rotate(360deg);opacity:1}}.arrow-down{position:absolute;top:0;right:0;left:0;margin:0 auto;width:35px;background-color:transparent;border:none;outline:none;display:inline-block;height:35px;animation-duration:2s;animation-iteration-count:infinite;animation-name:arrow-down}@keyframes arrow-down{0%{transform:translateY(-500%) rotate(0deg)}50%{transform:translateY(-300%) rotate(0deg)}100%{transform:translateY(-500%) rotate(0deg)}}.subtitle{text-align:center;margin:30px 0;position:relative}.all-categories{position:relative;margin:50px auto 0 auto;width:80%}@media screen and (max-width:480px){.header-main>h1{font-size:30px}.header-main{flex-direction:column}.header-main .logo{max-width:50px;width:100%;position:absolute;top:0;left:0;margin:10px}}
+        </style>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header class="header-main">
@@ -34,7 +38,7 @@
             <section class="all-items-index">
                 <h2 class="subtitle">Novedades</h2>
                 <div class="container-cards">
-                    <a href="details/details1.html" class="card">
+                    <a href="details/details1.html" class="card" aria-label="Información del libro">
                         <article class="card-content">
                             <h3>Crónicas Marcianas</h3>
                             <h4>Ray Bradbury</h4>
@@ -43,7 +47,7 @@
                         </article>
                     </a>
 
-                    <a href="details/details2.html" class="card">
+                    <a href="details/details2.html" class="card" aria-label="Información del libro">
                         <article class="card-content">
                             <h3>El jardín olvidado</h3>
                             <h4>Kate Morton</h4>
@@ -52,7 +56,7 @@
                         </article>
                     </a>
 
-                    <a href="#" class="card">
+                    <a href="#" class="card" aria-label="Información del libro">
                         <article class="card-content">
                             <h3>En el bosque oscuro</h3>
                             <h4>Dale Bailey</h4>
@@ -61,7 +65,7 @@
                         </article>
                     </a>
 
-                    <a href="#" class="card">
+                    <a href="#" class="card" aria-label="Información del libro">
                         <article class="card-content">
                             <h3>El resplandor</h3>
                             <h4>Stephen King</h4>
@@ -79,6 +83,5 @@
             <p>Iconos obtenidos de <a class="author" href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> desde <a class="author" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
             <p>Contenido obtenido de <a class="author" href="https://www.goodreads.com/" target="_blank" rel="noopener noreferrer">Goodreads</a> y <a class="author" href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
         </footer>
-        <script src="index.js"></script>
     </body>
 </html>
