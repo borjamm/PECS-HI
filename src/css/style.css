@@ -564,9 +564,9 @@ header:not(.header-main){
     margin: 10px;
 }
 
-.drafts > img {
+/* .drafts > img {
     width: 100px;
-}
+} */
 
 .container-authorBook{
     margin: 20px 10px;
