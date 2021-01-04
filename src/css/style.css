@@ -828,8 +828,6 @@ footer p {
     }
 
     .header-main .logo {
-        max-width: 50px;
-        width: 100%;
         position: absolute;
         top: 0;
         left: 0;
