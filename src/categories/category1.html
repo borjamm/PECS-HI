@@ -9,7 +9,7 @@
         <title>Editorial Práctica</title>
         <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
         <style>
-            *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Leckerli One',cursive;color:#1f1f1f;background:#ffffff;min-height:100vh;display:flex;flex-direction:column}header:not(.header-main){min-height:100px;display:flex;justify-content:space-between;align-items:center;background:#1f1f1f;color:#ffffff}.container-logo{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;width:50%;flex-direction:row-reverse}.container-logo img{animation:rotate 5s infinite}@keyframes rotate{0%{transform:rotate(0deg)}30%{transform:rotate(45deg)}50%{transform:rotate(-45deg)}100%{transform:rotate(0deg)}}.pagename{margin-left:20px;font-size:20px;position:relative;padding:.3rem 0;overflow:hidden}.pagename::before{content:'';background-color:#4169E1;height:3px;width:100%;bottom:0px;position:absolute;transform:translateX(-210px);animation:title-bottom 4s infinite alternate-reverse}@keyframes title-bottom{from{transform:translateX(-210px)}to{transform:translateX(210px)}}.container-logo>.logo{margin-left:20px;max-width:40px;width:100%}.menu-navigation{margin:10px;font-weight:bold}.menu-navigation ul li{list-style-type:none;margin:0 20px;position:relative;padding:1rem 0;overflow:hidden}.menu-navigation ul li a{padding:.5rem 0;position:relative;color:#ffffff;text-decoration:none}.menu-navigation ul li a::before{content:"";position:absolute;width:100%;height:3px;background-color:#4169E1;bottom:0px;transform:translateX(-110%)}.container{display:flex;justify-content:center;align-items:flex-start;flex-wrap:wrap}.categories-navigation{margin:50px 10px 10px 80px;max-width:300px;background-color:#ffffff;padding:20px 5px}.subtitle{text-align:center;margin:30px 0;position:relative}.list-categories{display:flex;justify-content:center;align-items:center;flex-wrap:wrap}.list-categories li{list-style-type:none;list-style-type:none;margin:10px 0;flex-basis:90%}.list-categories li:nth-child(even){background-color:#212429}.list-categories li:nth-child(odd){background-color:#2c2f34}.list-categories li a{text-decoration:none;color:#ffffff;display:block;text-align:center;padding:10px 0}.list-categories li.selected{background-color:#FFA07A}.all-items{margin:auto;width:65%}.container-cards{display:flex;justify-content:center;flex-wrap:wrap;margin:30px 5px 50px 5px}.card{text-decoration:none;color:#000000;background-color:#ffffff;box-shadow:0 2.8px 2.2px rgba(0,0,0,0.034),0 6.7px 5.3px rgba(0,0,0,0.048),0 12.5px 10px rgba(0,0,0,0.06),0 22.3px 17.9px rgba(0,0,0,0.072);border-radius:0 0 10px 10px;margin:10px 10px 50px 10px}.card-content{display:flex;justify-content:space-between;align-items:center;flex-direction:column-reverse;min-width:210px;min-height:350px}.card-content>h3{margin:5px 10px;padding:0;font-size:1rem;font-weight:normal;text-align:center}.card-content>h4{margin:10px 10px 0 10px;padding:0;font-size:.9rem;font-weight:normal;color:#EC7063}.card-content>img{object-fit:cover;object-position:center;width:100%;height:320px}.card-content .card-tags{background-color:#f2f2f2;margin:5px;padding:5px 10px;text-align:center;font-size:.8rem;align-self:flex-start;display:inline-block}@media screen and (max-width:1200px){.list-categories li{flex-basis:40%;margin:10px}.categories-navigation{margin:auto;max-width:100%}.all-items{margin:auto;width:90%}}@media screen and (max-width:768px){.list-categories li{flex-basis:80%;margin:10px}.pagename{font-size:16px}}@media screen and (max-width:480px){.container-logo{flex-wrap:nowrap}}
+            *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Leckerli One',cursive;color:#1f1f1f;background:#ffffff;min-height:100vh;display:flex;flex-direction:column}header:not(.header-main){min-height:100px;display:flex;justify-content:space-between;align-items:center;background:#1f1f1f;color:#ffffff}.container-logo{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;flex-direction:row-reverse}.container-logo img{animation:rotate 5s infinite;max-width:100%;height:auto}@keyframes rotate{0%{transform:rotate(0deg)}30%{transform:rotate(45deg)}50%{transform:rotate(-45deg)}100%{transform:rotate(0deg)}}.pagename{margin-left:20px;font-size:20px;position:relative;padding:.3rem 0;overflow:hidden}.pagename::before{content:'';background-color:#4169E1;height:3px;width:100%;bottom:0px;position:absolute;transform:translateX(-210px);animation:title-bottom 4s infinite alternate-reverse}@keyframes title-bottom{from{transform:translateX(-210px)}to{transform:translateX(210px)}}.container-logo>.logo{margin-left:20px;max-width:40px;width:100%}.menu-navigation{margin:10px;font-weight:bold}.menu-navigation ul li{list-style-type:none;margin:0 20px;position:relative;padding:1rem 0;overflow:hidden}.menu-navigation ul li a{padding:.5rem 0;position:relative;color:#ffffff;text-decoration:none}.menu-navigation ul li a::before{content:"";position:absolute;width:100%;height:3px;background-color:#4169E1;bottom:0px;transform:translateX(-110%)}.container{display:flex;justify-content:center;align-items:flex-start;flex-wrap:wrap}.categories-navigation{margin:50px 10px 10px 80px;max-width:300px;background-color:#ffffff;padding:20px 5px}.subtitle{text-align:center;margin:30px 0;position:relative}.list-categories{display:flex;justify-content:center;align-items:center;flex-wrap:wrap}.list-categories li{list-style-type:none;list-style-type:none;margin:10px 0;flex-basis:90%}.list-categories li:nth-child(even){background-color:#212429}.list-categories li:nth-child(odd){background-color:#2c2f34}.list-categories li a{text-decoration:none;color:#ffffff;display:block;text-align:center;padding:10px 0}.list-categories li.selected{background-color:#4169E1}.all-items{margin:auto;width:65%}.container-cards{display:flex;justify-content:center;flex-wrap:wrap;margin:30px 5px 50px 5px}.card{text-decoration:none;color:#000000;background-color:#ffffff;box-shadow:0 2.8px 2.2px rgba(0,0,0,0.034),0 6.7px 5.3px rgba(0,0,0,0.048),0 12.5px 10px rgba(0,0,0,0.06),0 22.3px 17.9px rgba(0,0,0,0.072);border-radius:0 0 10px 10px;margin:10px 10px 50px 10px}.card-content{display:flex;justify-content:space-between;align-items:center;flex-direction:column-reverse;width:210px}.card-content>h3{margin:5px 10px;padding:0;font-size:1rem;font-weight:normal;text-align:center}.card-content>h4{margin:10px 10px 0 10px;padding:0;font-size:.9rem;font-weight:normal;color:#4169E1}.card-content>img{object-fit:cover;object-position:center;max-width:100%;height:auto}.card-content .card-tags{background-color:#f2f2f2;margin:5px;padding:5px 10px;text-align:center;font-size:.8rem;align-self:flex-start;display:inline-block}@media screen and (max-width:1200px){.list-categories li{flex-basis:40%;margin:10px}.categories-navigation{margin:auto;max-width:100%}.all-items{margin:auto;width:90%}}@media screen and (max-width:768px){.list-categories li{flex-basis:80%;margin:10px}.pagename{font-size:16px}}@media screen and (max-width:480px){.container-logo{flex-wrap:nowrap}}
         </style>
         <link rel="preload" href="../css/style.css" as="style" onload="this.rel='stylesheet'">
     </head>
@@ -17,7 +17,7 @@
         <header>
             <div class="container-logo">
                 <h1 class="pagename">Editorial Práctica</h1>
-                <img src="../img/icons/logo.svg" alt="Logotipo de la web" class="logo" title="Logo">
+                <img width="40" height="40" src="../img/icons/logo.svg" alt="Logotipo de la web" class="logo" title="Logo">
             </div>
             <nav class="menu-navigation">
                 <ul>
@@ -49,7 +49,7 @@
                             <h3>Crónicas Marcianas</h3>
                             <h4>Ray Bradbury</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="../img/imgsCategory1/cronicasMarcianas.jpg" alt="Portada del libro llamado Crónicas Marcianas" title="Crónicas Marcianas">
+                            <img width="210" height="320" src="../img/imgsCategory1/cronicasMarcianas.jpg" alt="Portada del libro llamado Crónicas Marcianas" title="Crónicas Marcianas">
                         </article>
                     </a>
 
@@ -58,7 +58,7 @@
                             <h3>Nueva York 2140</h3>
                             <h4>Kim Stanley Robinson</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="../img/imgsCategory1/nuevaYork2140.jpg" alt="Portada del libro llamado Nueva York 2140" title="Nueva York 2140">
+                            <img width="210" height="320" src="../img/imgsCategory1/nuevaYork2140.jpg" alt="Portada del libro llamado Nueva York 2140" title="Nueva York 2140">
                         </article>
                     </a>
 
@@ -67,7 +67,7 @@
                             <h3>Las estrellas, mi destino</h3>
                             <h4>Alfred Bester</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="../img/imgsCategory1/lasEstrellasMiDestino.jpg" alt="Portada del libro llamado Las estrellas, mi destino" title="Las estrellas, mi destino">
+                            <img width="210" height="320" src="../img/imgsCategory1/lasEstrellasMiDestino.jpg" alt="Portada del libro llamado Las estrellas, mi destino" title="Las estrellas, mi destino">
                         </article>
                     </a>
 
@@ -76,7 +76,7 @@
                             <h3>La cúpula</h3>
                             <h4>Stephen King</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="../img/imgsCategory1/laCupula.jpg" alt="Portada del libro llamado La cúpula" title="La cúpula">
+                            <img width="210" height="320" src="../img/imgsCategory1/laCupula.jpg" alt="Portada del libro llamado La cúpula" title="La cúpula">
                         </article>
                     </a>
 
@@ -85,7 +85,7 @@
                             <h3>Guerra mundial Z</h3>
                             <h4>Max Brooks</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="../img/imgsCategory1/guerraMundialZ.jpg" alt="Portada del libro llamado Guerra mundial Z" title="Guerra mundial Z">
+                            <img width="210" height="320" src="../img/imgsCategory1/guerraMundialZ.jpg" alt="Portada del libro llamado Guerra mundial Z" title="Guerra mundial Z">
                         </article>
                     </a>
 
@@ -94,7 +94,7 @@
                             <h3>Las Brigadas Fantasma</h3>
                             <h4>John Scalzi</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="../img/imgsCategory1/lasBrigadasFantasma.jpg" alt="Portada del libro llamado Las Brigadas Fantasma" title="Las Brigadas Fantasma">
+                            <img width="210" height="320" src="../img/imgsCategory1/lasBrigadasFantasma.jpg" alt="Portada del libro llamado Las Brigadas Fantasma" title="Las Brigadas Fantasma">
                         </article>
                     </a>
 
@@ -103,7 +103,7 @@
                             <h3>Aurora</h3>
                             <h4>Kim Stanley Robinson</h4>
                             <span class="card-tags">Ciencia ficción</span>
-                            <img src="../img/imgsCategory1/aurora.jpg" alt="Portada del libro llamado Aurora" title="Aurora">
+                            <img width="210" height="320" src="../img/imgsCategory1/aurora.jpg" alt="Portada del libro llamado Aurora" title="Aurora">
                         </article>
                     </a>
 
@@ -112,7 +112,7 @@
                             <h3>Battle Royale</h3>
                             <h4>Koushun Takami</h4>
                             <span class="card-tags">Ciencia ficción</span>
-                            <img src="../img/imgsCategory1/battleRoyale.jpg" alt="Portada del libro llamado Battle Royale" title="Battle Royale">
+                            <img width="210" height="320" src="../img/imgsCategory1/battleRoyale.jpg" alt="Portada del libro llamado Battle Royale" title="Battle Royale">
                         </article>
                     </a>
 
@@ -121,7 +121,7 @@
                             <h3>El hombre en el castillo</h3>
                             <h4>Philip K. Dick</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="../img/imgsCategory1/elHombreEnElCastillo.jpg" alt="Portada del libro llamado El hombre en el castillo" title="El hombre en el castillo">
+                            <img width="210" height="320" src="../img/imgsCategory1/elHombreEnElCastillo.jpg" alt="Portada del libro llamado El hombre en el castillo" title="El hombre en el castillo">
                         </article>
                     </a>
                 </div>

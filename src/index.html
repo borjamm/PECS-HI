@@ -9,7 +9,7 @@
         <title>Editorial Práctica</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
         <style>
-           *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Leckerli One',cursive;color:#1f1f1f;background:#ffffff;min-height:100vh;display:flex;flex-direction:column}.header-main{background-image:linear-gradient(to right,#ffc3a0 0%,#ffafbd 100%);display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:90vh}.header-main h1,.header-main h2,.header-main .logo{font-size:45px;animation-name:header;animation-duration:2s;animation-iteration-count:1}.header-main h2{font-size:20px}.header-main .logo{margin-left:20px;max-width:70px;width:100%;position:absolute;top:0;left:0;margin:20px}@keyframes header{0%{transform:scale(0) rotate(0deg);opacity:0}50%{transform:scale(1.1) rotate(359deg);opacity:1}100%{transform:scale(1) rotate(360deg);opacity:1}}.arrow-down{position:absolute;top:0;right:0;left:0;margin:0 auto;width:35px;background-color:transparent;border:none;outline:none;display:inline-block;height:35px;animation-duration:2s;animation-iteration-count:infinite;animation-name:arrow-down}@keyframes arrow-down{0%{transform:translateY(-500%) rotate(0deg)}50%{transform:translateY(-300%) rotate(0deg)}100%{transform:translateY(-500%) rotate(0deg)}}.subtitle{text-align:center;margin:30px 0;position:relative}.all-categories{position:relative;margin:50px auto 0 auto;width:80%}@media screen and (max-width:480px){.header-main>h1{font-size:30px}.header-main{flex-direction:column}.header-main .logo{max-width:50px;width:100%;position:absolute;top:0;left:0;margin:10px}}
+            *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'Leckerli One',cursive;color:#1f1f1f;background:#ffffff;min-height:100vh;display:flex;flex-direction:column}.header-main{background-image:linear-gradient(to right,#ffc3a0 0%,#ffafbd 100%);display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:90vh}.header-main h1,.header-main h2,.header-main .logo{font-size:45px;animation-name:header;animation-duration:2s;animation-iteration-count:1}.header-main h2{font-size:20px}.header-main .logo{margin-left:20px;max-width:70px;width:100%;position:absolute;top:0;left:0;margin:20px}@keyframes header{0%{transform:scale(0) rotate(0deg);opacity:0}50%{transform:scale(1.1) rotate(359deg);opacity:1}100%{transform:scale(1) rotate(360deg);opacity:1}}.arrow-down{position:absolute;top:0;right:0;left:0;margin:0 auto;background-color:transparent;border:none;outline:none;display:inline-block;animation-duration:2s;animation-iteration-count:infinite;animation-name:arrow-down;max-width:100%;height:auto}@keyframes arrow-down{0%{transform:translateY(-500%) rotate(0deg)}50%{transform:translateY(-300%) rotate(0deg)}100%{transform:translateY(-500%) rotate(0deg)}}.subtitle{text-align:center;margin:30px 0;position:relative}.all-categories{position:relative;margin:50px auto 0 auto;width:80%}.tags-category{list-style-type:none}.tags-category:nth-child(odd) a{background-color:#ff9a9e;animation-name:categoryTagsOdd;animation-duration:2s}@keyframes categoryTagsOdd{0%{transform:rotate(0deg);background-color:#ff9a9e}50%{transform:rotate(-360deg);background-color:#FF6347}}.card.category{width:200px;height:150px;border-radius:10px;display:flex;justify-content:center;align-items:center;font-size:18px;text-decoration:none;color:#000000}.container-cards{display:flex;justify-content:center;flex-wrap:wrap;margin:30px 5px 50px 5px}.card{text-decoration:none;color:#000000;background-color:#ffffff;box-shadow:0 2.8px 2.2px rgba(0,0,0,0.034),0 6.7px 5.3px rgba(0,0,0,0.048),0 12.5px 10px rgba(0,0,0,0.06),0 22.3px 17.9px rgba(0,0,0,0.072);border-radius:0 0 10px 10px;margin:10px 10px 50px 10px}@media screen and (max-width:480px){.header-main>h1{font-size:30px}.header-main{flex-direction:column}.header-main .logo{max-width:50px;width:100%;position:absolute;top:0;left:0;margin:10px}}
         </style>
         <link rel="preload" href="css/style.css" as="style" onload="this.rel='stylesheet'">
     </head>
@@ -17,7 +17,7 @@
         <header class="header-main">
             <h1>Editorial Práctica</h1>
             <h2>Borja Machín Morera</h2>
-            <img src="img/icons/logo.svg" alt="Logotipo de la web" class="logo" title="Logo">
+            <img width="60" height="60" src="img/icons/logo.svg" alt="Logotipo de la web" class="logo" title="Logo">
         </header>
         
         <main>
@@ -33,7 +33,7 @@
                     <li class="tags-category"><a class="card category" href="#">Novela histórica</a></li>
                     <li class="tags-category"><a class="card category" href="#">Novela de viajes</a></li>
                 </ul>
-                <img class="arrow-down" src="img/icons/arrow.svg" alt="Flecha hacia abajo">
+                <img width="35" height="35" class="arrow-down" src="img/icons/arrow.svg" alt="Flecha hacia abajo">
             </section>
             
             <section class="all-items-index">
@@ -44,7 +44,7 @@
                             <h3>Crónicas Marcianas</h3>
                             <h4>Ray Bradbury</h4>
                             <span class="card-tags">Ciencia Ficción</span>
-                            <img src="img/imgsCategory1/cronicasMarcianas.jpg" alt="Portada del libro llamado Crónicas Marcianas" title="Crónicas Marcianas">
+                            <img width="210" height="320" src="img/imgsCategory1/cronicasMarcianas.jpg" alt="Portada del libro llamado Crónicas Marcianas" title="Crónicas Marcianas">
                         </article>
                     </a>
 
@@ -53,7 +53,7 @@
                             <h3>El jardín olvidado</h3>
                             <h4>Kate Morton</h4>
                             <span class="card-tags">Novela romántica</span>
-                            <img src="img/imgsCategory2/elJardínOlvidado.jpg" alt="Portada del libro llamado El jardín olvidado" title="El jardín olvidado">
+                            <img width="210" height="320" src="img/imgsCategory2/elJardínOlvidado.jpg" alt="Portada del libro llamado El jardín olvidado" title="El jardín olvidado">
                         </article>
                     </a>
 
@@ -62,7 +62,7 @@
                             <h3>En el bosque oscuro</h3>
                             <h4>Dale Bailey</h4>
                             <span class="card-tags">Narrativa fantástica</span>
-                            <img src="img/imgsOtherCategories/enElBosqueOscuro.jpg" alt="Portada del libro llamado En el bosque oscuro" title="En el bosque oscuro">
+                            <img width="210" height="320" src="img/imgsOtherCategories/enElBosqueOscuro.jpg" alt="Portada del libro llamado En el bosque oscuro" title="En el bosque oscuro">
                         </article>
                     </a>
 
@@ -71,7 +71,7 @@
                             <h3>El resplandor</h3>
                             <h4>Stephen King</h4>
                             <span class="card-tags">Novela de terror</span>
-                            <img src="img/imgsOtherCategories/elResplandor.jpg" alt="Portada del libro llamado El resplandor" title="El resplandor">
+                            <img width="210" height="320" src="img/imgsOtherCategories/elResplandor.jpg" alt="Portada del libro llamado El resplandor" title="El resplandor">
                         </article>
                     </a>
                 </div>
