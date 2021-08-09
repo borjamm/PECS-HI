@@ -38,15 +38,11 @@ header:not(.header-main){
     min-height: 90vh;
 }
 
-.header-main h1, .header-main h2, .header-main .logo {
+.header-main h1, .header-main .logo {
     font-size: 45px;
     animation-name: header;
     animation-duration: 2s;
     animation-iteration-count: 1;
-}
-
-.header-main h2 {
-    font-size: 20px;
 }
 
 .header-main .logo {
